@@ -1,3 +1,7 @@
+body{
+  max-width: 1280px;
+}
+
 .sidebar{
   width: 200px;
   float: left;
@@ -9,9 +13,10 @@
 }
 
 .column{
-  width: 320px;
+  width: 30%;
   float: left;
-  padding-left: 50px;
+  padding-left: 2.5%;
+  padding-bottom: 50px;
 }
 
 .header{
@@ -24,3 +29,13 @@
   padding-left: 30px;
 }
 img{}
+
+/* Media */
+
+@media screen and (max-width: 1000px) {
+  .column{
+    float: none;
+    width: 90%;
+    text-align: center;
+  }
+}
