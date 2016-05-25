@@ -2,7 +2,10 @@
   width: 200px;
   float: left;
   line-height: 300%;
-  padding-right: 30px;
+  padding: 6px;
+  border: 4px solid black;
+  margin-right: 30px;
+  background-color: red;
 }
 
 .column{
