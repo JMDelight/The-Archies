@@ -65,3 +65,20 @@ body{
     padding-right: 20%;
   }
 }
+
+@media print {
+  .sidebar {
+    line-height: normal;
+    border: none;
+  }
+  .pic {
+    display: none;
+  }
+  p {
+    font-size: 12px;
+  }
+  .column img {
+    display: none;
+  }
+
+}
